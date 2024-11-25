@@ -1,0 +1,105 @@
+body{
+  background-color: #ffffff;
+}
+html{
+  scroll-behavior: smooth !important;
+}
+/*Home*/
+.parallax-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/free-photo/friendship-man-beige-turtleneck-resting-park-with-his-pet_259150-57242.jpg?t=st=1732385603~exp=1732389203~hmac=a24afc705bf99aa0ecc85964d30e7cc21ab087cf92b87a164422610504b8fd90&w=1380");
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.caption span.border {
+
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 10px;
+  border: solid 1px rgb(255, 255, 255);
+}
+.State{
+  background-image: url("https://img.freepik.com/free-photo/smiley-young-woman-with-her-dog_23-2148345887.jpg?t=st=1732430738~exp=1732434338~hmac=0498a7d70e17db34ff33fafabaa07228444976b85c4e9092a5d2619ebb06b26b&w=826");
+  background-attachment: fixed;
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Login & Register*/
+input,
+select {
+  border-radius: 0 0.5rem 0.5rem 0;
+  flex: 1;
+  appearance: none;
+  border: 1px solid #d1d5db;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #4b5563;
+
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  font-size: 1rem;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #ead833;
+  outline-offset: 2px;
+  border-color: transparent;
+ 
+}
+
+input.input-error,
+select.input-error {
+  border-color: rgb(198, 30, 30);
+}
+input[type="file"] {
+  display: none;
+}
+/* Aminations*/
+.reveal {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 0.1s ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  transition: all 0.6s ease;
+  opacity: 1;
+}
+.revealx {
+  position: relative;
+  transform: translateX(20px);
+  opacity: 0;
+  transition: all 1.7s ease;
+}
+.revealx.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+.revealr {
+  position: relative;
+  transform: translateX(-20px);
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+.revealr.active {
+  transform: translateX(0);
+  opacity: 1;
+}
