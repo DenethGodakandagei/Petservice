@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="flex justify-between items-center py-4 px-4 border-b border-gray-400 w-full">
-        {/* Logo  */}
+        
         <div className="text-2xl font-bold text-orange-800">FocoWalk</div>
 
         {/* Desktop Navbar */}

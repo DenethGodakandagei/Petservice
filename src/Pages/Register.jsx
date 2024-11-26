@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 const Register = () => {
   return (
     <>
-    <Navbar />
+      <Navbar />
       <div className="flex justify-center items-center h-screen">
         <div className="flex flex-col w-full max-w-md px-4 py-8 bg-white rounded-lg shadow dark:bg-orange-100 sm:px-6 md:px-8 lg:px-10 justify-items-center m-3">
           <div className="self-center mb-6 text-xl  text-gray-800 sm:text-3xl ">
@@ -13,9 +13,6 @@ const Register = () => {
           </div>
           <div className="mt-8">
             <form>
-             
-              
-
               <div className="flex flex-col mb-2">
                 <div className="flex relative ">
                   <span className="rounded-l-md inline-flex  items-center px-3 border-t bg-white border-l border-b  border-gray-300 text-gray-500 shadow-sm text-sm">
@@ -127,11 +124,8 @@ const Register = () => {
         </div>
       </div>
       <div className="p-2  bg-orange-300">
-      <div className="text-center  text-white p-5">
-            {" "}
-            All Rights Reserved
-          </div>
-          </div>
+        <div className="text-center  text-white p-5"> All Rights Reserved</div>
+      </div>
     </>
   );
 };

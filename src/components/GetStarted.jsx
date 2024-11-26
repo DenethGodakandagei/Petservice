@@ -13,8 +13,8 @@ const GetStarted = () => {
       
       <div className="flex justify-center">
         <div className="p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-          
-          <div className="flex flex-col items-center text-center">
+          {/*card one */}
+          <div className="flex flex-col items-center text-center reveal">
             <img
               src="https://cdn-icons-png.flaticon.com/512/9984/9984522.png"
               className="w-32 md:w-36 lg:w-40 mb-4"
@@ -35,8 +35,8 @@ const GetStarted = () => {
             </span>
            </div>
           </div>
-         
-          <div className="flex flex-col items-center text-center">
+           {/*card two*/}
+          <div className="flex flex-col items-center text-center reveal">
             <img
               src="https://cdn-icons-png.flaticon.com/512/5261/5261257.png"
               className="w-32 md:w-36 lg:w-40 mb-4"
@@ -57,8 +57,8 @@ const GetStarted = () => {
             </span>
            </div>
           </div>
-          
-          <div className="flex flex-col items-center text-center">
+            {/*card three */}
+          <div className="flex flex-col items-center text-center reveal">
             <img
               src="https://cdn-icons-png.flaticon.com/512/4271/4271076.png"
               className="w-32 md:w-36 lg:w-40 mb-4"

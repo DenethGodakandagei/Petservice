@@ -26,7 +26,7 @@ const About = () => {
       </div>
       <div className="flex justify-center ">
         <div className="grid grid-rows-3 grid-flow-col gap-4">
-          <div className="row-start-2 row-span-2 pr-4">
+          <div className="row-start-1 sm:row-start-2 row-span-2 pr-4">
             <div className="reveal">
               <img
                 src="https://img.freepik.com/free-photo/selective-focus-shot-adorable-kooikerhondje-dog-field_181624-29383.jpg?t=st=1732414591~exp=1732418191~hmac=99dd27cf0d0a42e84a58519ed89649dd12e37d78969d4cbd524eb69b213be19a&w=996"
